@@ -5,8 +5,12 @@
   ```bash
   $ git config user.email "<email>"
   $ git config user.name "<username>"
-  $ git remote add origin `git@github.com-<my_username>:{owner-user-name}/{the-repo-name}.git`
-   ``` 
+  $ git remote add origin `git@github.com-{my_username}:{owner-user-name}/{the-repo-name}.git`
+
+  #for cloning 
+  $ git clone git@github.com-{your-username}:{owner-user-name}/{the-repo-name}.git
+   ```
+
 
   - if `$ ssh-add -K ~/.ssh/id_rsa ` didn't work : [solution](https://stackoverflow.com/a/66350907).
 
